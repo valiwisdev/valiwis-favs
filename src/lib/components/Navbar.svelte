@@ -187,44 +187,44 @@
 			   <!-- Mobile gradient underline -->
 			   <div class="relative mt-2">
 				   {#if getActiveColor() === 'pink'}
-					   <div class="h-px w-full bg-gradient-to-r from-transparent via-pink/60 to-transparent"></div>
-					   <div class="absolute inset-x-0 top-0 h-4 bg-gradient-to-r from-transparent via-pink/15 to-transparent blur-md"></div>
+					   <div class="mx-auto h-px w-[70%] bg-linear-to-r from-transparent via-pink/60 to-transparent"></div>
+					   <div class="absolute left-1/2 top-0 h-2 w-[80%] -translate-x-1/2 bg-linear-to-r from-transparent via-pink/10 to-transparent blur-sm opacity-70"></div>
 				   {:else if getActiveColor() === 'flamingo'}
-					   <div class="h-px w-full bg-gradient-to-r from-transparent via-flamingo/60 to-transparent"></div>
-					   <div class="absolute inset-x-0 top-0 h-4 bg-gradient-to-r from-transparent via-flamingo/15 to-transparent blur-md"></div>
+					   <div class="mx-auto h-px w-[70%] bg-linear-to-r from-transparent via-flamingo/60 to-transparent"></div>
+					   <div class="absolute left-1/2 top-0 h-2 w-[80%] -translate-x-1/2 bg-linear-to-r from-transparent via-flamingo/10 to-transparent blur-sm opacity-70"></div>
 				   {:else if getActiveColor() === 'mauve'}
-					   <div class="h-px w-full bg-gradient-to-r from-transparent via-mauve/60 to-transparent"></div>
-					   <div class="absolute inset-x-0 top-0 h-4 bg-gradient-to-r from-transparent via-mauve/15 to-transparent blur-md"></div>
+					   <div class="mx-auto h-px w-[70%] bg-linear-to-r from-transparent via-mauve/60 to-transparent"></div>
+					   <div class="absolute left-1/2 top-0 h-2 w-[80%] -translate-x-1/2 bg-linear-to-r from-transparent via-mauve/10 to-transparent blur-sm opacity-70"></div>
 				   {:else if getActiveColor() === 'teal'}
-					   <div class="h-px w-full bg-gradient-to-r from-transparent via-teal/60 to-transparent"></div>
-					   <div class="absolute inset-x-0 top-0 h-4 bg-gradient-to-r from-transparent via-teal/15 to-transparent blur-md"></div>
+					   <div class="mx-auto h-px w-[70%] bg-linear-to-r from-transparent via-teal/60 to-transparent"></div>
+					   <div class="absolute left-1/2 top-0 h-2 w-[80%] -translate-x-1/2 bg-linear-to-r from-transparent via-teal/10 to-transparent blur-sm opacity-70"></div>
 				   {/if}
 			   </div>
 		   </div>
 	{/if}
 	<div class="relative">
 		{#if getActiveColor() === 'pink'}
-			<div class="h-px w-full bg-gradient-to-r from-transparent via-pink/60 to-transparent"></div>
-			<div
-				class="absolute inset-x-0 top-0 h-4 bg-gradient-to-r from-transparent via-pink/15 to-transparent blur-md"
-			></div>
+			   <div class="h-px w-full bg-linear-to-r from-transparent via-pink/60 to-transparent"></div>
+			   <div
+				   class="absolute inset-x-0 top-0 h-2 bg-linear-to-r from-transparent via-pink/10 to-transparent blur-sm opacity-70"
+			   ></div>
 		{:else if getActiveColor() === 'flamingo'}
-			<div
-				class="h-px w-full bg-gradient-to-r from-transparent via-flamingo/60 to-transparent"
-			></div>
-			<div
-				class="absolute inset-x-0 top-0 h-4 bg-gradient-to-r from-transparent via-flamingo/15 to-transparent blur-md"
-			></div>
+			   <div
+				   class="h-px w-full bg-linear-to-r from-transparent via-flamingo/60 to-transparent"
+			   ></div>
+			   <div
+				   class="absolute inset-x-0 top-0 h-2 bg-linear-to-r from-transparent via-flamingo/10 to-transparent blur-sm opacity-70"
+			   ></div>
 		{:else if getActiveColor() === 'mauve'}
-			<div class="h-px w-full bg-gradient-to-r from-transparent via-mauve/60 to-transparent"></div>
-			<div
-				class="absolute inset-x-0 top-0 h-4 bg-gradient-to-r from-transparent via-mauve/15 to-transparent blur-md"
-			></div>
+			   <div class="h-px w-full bg-linear-to-r from-transparent via-mauve/60 to-transparent"></div>
+			   <div
+				   class="absolute inset-x-0 top-0 h-2 bg-linear-to-r from-transparent via-mauve/10 to-transparent blur-sm opacity-70"
+			   ></div>
 		{:else if getActiveColor() === 'teal'}
-			<div class="h-px w-full bg-gradient-to-r from-transparent via-teal/60 to-transparent"></div>
-			<div
-				class="absolute inset-x-0 top-0 h-4 bg-gradient-to-r from-transparent via-teal/15 to-transparent blur-md"
-			></div>
+			   <div class="h-px w-full bg-linear-to-r from-transparent via-teal/60 to-transparent"></div>
+			   <div
+				   class="absolute inset-x-0 top-0 h-2 bg-linear-to-r from-transparent via-teal/10 to-transparent blur-sm opacity-70"
+			   ></div>
 		{/if}
 	</div>
 </nav>
