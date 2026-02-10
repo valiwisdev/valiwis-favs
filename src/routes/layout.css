@@ -31,7 +31,7 @@
 }
 
 :root {
-    background-color: theme(--color-base);
+    background-color: theme(--color-mantle);
     color: theme(--color-text);
 }
 
