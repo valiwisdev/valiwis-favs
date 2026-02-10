@@ -29,4 +29,3 @@ pnpm dev
 ## Preview 
 
 ![alt text](/static/home.png)
-
