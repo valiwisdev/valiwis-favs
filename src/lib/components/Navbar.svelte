@@ -3,6 +3,7 @@
 	import { House, BookOpen, ScrollText, Sparkles } from 'lucide-svelte';
 
 	let menuOpen = $state(false);
+	
 
 	const links = [
 		{ href: '/', label: 'Home', icon: House },
