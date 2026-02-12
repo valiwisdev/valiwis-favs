@@ -49,10 +49,10 @@ export const removeWorkFromShelf = async (shelfId: number, workId: number) => {
     return await db.delete(shelvesToWorks).where(and(
         eq(shelvesToWorks.shelfId, shelfId),
         eq(shelvesToWorks.workId, workId)
-    ));
+    )).returning();
 }
 
 export const deleteShelf = async (shelfId: number) => {
-    return await db.delete(shelves).where(eq(shelves.id, shelfId));
+    return await db.delete(shelves).where(eq(shelves.id, shelfId)).returning();
 }
 
